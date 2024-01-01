@@ -12,7 +12,7 @@ using Microsoft.ML.Transforms;
 using Microsoft.ML;
     public partial class SalaryPredictAPI
     {
-        public const string RetrainFilePath =  @"C:\Users\babec\source\repos\ConsoleApp1\Salary_Data.csv";
+        public const string RetrainFilePath =  @"data\Salary_Data.csv";
         public const char RetrainSeparatorChar = ',';
         public const bool RetrainHasHeader =  true;
 
